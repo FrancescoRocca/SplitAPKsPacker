@@ -5,7 +5,7 @@ This Python script is designed to combine split APKs into a single, unified APK 
 ## 🚀 Features
 - **Simple:** Easily pack split APKs and your modified base APK into one file.
 - **Efficiency:** Automates the tedious process of combining split APKs.
-- **Supported Formats:** Works seamlessly with `.xapk` files, which can easily be unpacked for use.
+- **Supported Formats:** Works seamlessly with `.xapk` files (ApkPure), which can easily be unpacked for use.
 
 ## 📦 Requirements
 To get started, you'll need the following tools:
@@ -33,7 +33,7 @@ To get started, you'll need the following tools:
    - Replace `base_apk_dir` with the path to your modified base APK directory and `split_apks_folder` with the folder containing the other split APKs.
 
 
-## Sample output
+## 📸 Sample output
 ![Output Screenshot](./screenshots/output.png)
 
 ## 🔧 Command-Line Options
