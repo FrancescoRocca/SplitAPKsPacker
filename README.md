@@ -1,2 +1,2 @@
-# SplitAPKPacker
+# SplitAPKsPacker
 Python script to combine split APKs into a single APK file.
