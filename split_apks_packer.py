@@ -197,7 +197,7 @@ def print_white(text):
 def run_sap(args: argparse.Namespace):
     base_apk_folder = pathlib.Path(args.base_apk_dir).resolve()
     split_apks_folder = pathlib.Path(args.split_apks_folder).resolve()
-    output_folder = pathlib.Path(args.output).resolve() if args.output else None
+    output_folder = pathlib.Path(args.output).resolve() if args.output else "out_folder"
     sign = args.sign
 
     if not all(
