@@ -236,7 +236,10 @@ if __name__ == "__main__":
         "-s", "--sign", action="store_true", help="Sign the APK using uber-apk-signer"
     )
     parser.add_argument(
-        "-o", "--output", help="Output path where the build files will be stored", type=str
+        "-o",
+        "--output",
+        help="Output path where the build files will be stored",
+        type=str,
     )
     parser.add_argument("base_apk_dir", help="Base APK folder", type=str)
     parser.add_argument(
